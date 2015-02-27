@@ -1,7 +1,15 @@
 html {
 	box-sizing: border-box;
+	color: white;
+	font: normal 100%/1.5 Georgia, serif;
 }
 
 *, *::before, *::after {
 	box-sizing: inherit;
+}
+
+.grains {
+	float: left;
+	width: 25%;
+	margin-right: 15px;
 }
