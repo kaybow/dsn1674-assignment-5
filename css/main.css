@@ -10,8 +10,13 @@ html {
 
 header {
 	padding: 0 0 0.4em;
-	background-color: orange;
+	background-color: #e5613e;
 	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	border: 1px solid black;
 }
 
 .grains {
@@ -35,5 +40,6 @@ header {
 }
 
 .famous-cereals {
-	background-color: orange
+	background-color: #dd6e50;
+	text-align: center;
 }
