@@ -23,3 +23,7 @@ html {
 	float: right;
 	width: 25%;
 }
+
+.second-p {
+	clear: both;
+}
