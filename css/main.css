@@ -38,10 +38,16 @@ nav a {
 	padding: 3em;
 }
 
+nav ol {
+	margin: 0;
+	padding: 0;
+}
+
 .grains {
 	float: left;
 	width: 25%;
-	margin-right: 15px;
+	margin-right: 1em;
+	margin-bottom: 1em;
 }
 
 .cereals {
