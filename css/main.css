@@ -20,7 +20,11 @@ h1, h2 {
 
 nav li {
 	display: inline-block;
-	border: 1px solid black;
+	border: 1px solid #963e30;
+}
+
+nav a {
+	color: white;
 }
 
 .grains {
