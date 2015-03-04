@@ -14,9 +14,10 @@ body {
 }
 
 header {
-	padding: 0em;
+	padding: 0.5em;
 	background-color: #e5613e;
 	text-align: center;
+	margin: 0;
 }
 
 h1, h2 {
@@ -25,22 +26,35 @@ h1, h2 {
 
 h1 {
 	font-size: 3rem;
-	margin: 0 0 0.2em;
+	margin: 0 0 0 0.2 em;
+}
+
+nav {
+	text-align: center;
 }
 
 nav li {
-	display: inline;
+	display: inline-block;
+	margin:0;
 	border: 1px solid #963e30;
+	float: left;
+	width: 33.3%;
 }
 
 nav a {
 	color: white;
-	padding: 3em;
+	padding: 0.5rem;
+	display: block;
+	text-decoration: none;
+	margin: 0;
+	background-color: #e5613e;
 }
 
 nav ol {
-	margin: 0;
+	list-style-type: none;
+	margin :0;
 	padding: 0;
+	text-align: center;
 }
 
 .grains {
