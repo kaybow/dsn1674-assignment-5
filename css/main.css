@@ -59,6 +59,7 @@ nav ol {
 .quinoa {
 	float: right;
 	width: 25%;
+	clear: right;
 }
 
 .second-p {
