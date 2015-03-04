@@ -54,20 +54,28 @@ nav ol {
 .cereals {
 	float: right;
 	width: 25%;
-	margin-top: 3em;
+	margin-bottom: 1em;
 }
 
 .quinoa {
 	float: right;
 	width: 25%;
 	clear: right;
+	margin-bottom: 1em;
 }
 
 .second-p {
 	clear: both;
+	margin: 0;
 }
 
 .famous-cereals {
 	background-color: #dd6e50;
 	text-align: center;
+}
+
+figcaption {
+	text-align: center;
+	background-color: #dd6e50;
+	padding-bottom: 1em;
 }
