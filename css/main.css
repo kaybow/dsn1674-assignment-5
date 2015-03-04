@@ -99,3 +99,10 @@ nav ol {
 	color: black;
 	text-align: center;
 }
+
+footer {
+background-color: #e5613e;
+text-align: center;
+padding: 1em;
+margin-top: 1em;
+}
