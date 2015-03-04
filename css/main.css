@@ -91,4 +91,7 @@ nav ol {
 	float: left;
 }
 
+.peanuts,.beans,.lentils {
+	width: 20%;
+}
 
