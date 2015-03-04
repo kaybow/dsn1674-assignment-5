@@ -80,3 +80,15 @@ nav ol {
 	padding-bottom: 1em;
 	color: white;
 }
+
+.rice {
+	float: left;
+	width: 50%;
+}
+
+.oats {
+	width: 50%;
+	float: left;
+}
+
+
