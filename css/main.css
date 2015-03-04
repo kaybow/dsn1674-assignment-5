@@ -41,12 +41,11 @@ nav a {
 nav ol {
 	margin: 0;
 	padding: 0;
-	list-style: none;
 }
 
 .grains {
 	float: left;
-	width: 25%;
+	width: 35%;
 	margin-top: 0.5em;
 	margin-right: 1em;
 	margin-bottom: 1em;
@@ -55,13 +54,13 @@ nav ol {
 .cereals {
 	float: right;
 	clear: left;
-	width: 25%;
+	width: 35%;
 	margin-bottom: 1em;
 }
 
 .quinoa {
 	float: right;
-	width: 25%;
+	width: 35%;
 	clear: both;
 	margin-bottom: 1em;
 }
@@ -70,6 +69,7 @@ nav ol {
 	background-color: #dd6e50;
 	text-align: center;
 	clear: both;
+	margin-bottom: 0;
 }
 
  .fig-1{
@@ -98,10 +98,26 @@ nav ol {
 	text-align: center;
 }
 
+.corn {
+	margin-bottom: 0;
+}
+
 footer {
 background-color: #e5613e;
 text-align: center;
 padding: 1em;
 margin-top: 1em;
 color: white;
+}
+
+.decor {
+	width: 5%;
+	float: left;
+	padding-top: 15px;
+}
+
+.decor2 {
+	width: 5%;
+	float: right;
+	padding-top: 15px;
 }
