@@ -14,7 +14,7 @@ body {
 }
 
 header {
-	padding: 0 0 0.4em;
+	padding: 0em;
 	background-color: #e5613e;
 	text-align: center;
 }
@@ -46,6 +46,7 @@ nav ol {
 .grains {
 	float: left;
 	width: 25%;
+	margin-top: 0.5em;
 	margin-right: 1em;
 	margin-bottom: 1em;
 }
