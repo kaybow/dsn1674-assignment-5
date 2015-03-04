@@ -74,8 +74,9 @@ nav ol {
 	text-align: center;
 }
 
-figcaption {
+ .fig-1{
 	text-align: center;
 	background-color: #dd6e50;
 	padding-bottom: 1em;
+	color: white;
 }
