@@ -13,6 +13,26 @@ body {
 	padding: 0;
 }
 
+.left {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+.left img {
+	width: 100%;
+
+}
+
+.right {
+	width: 50%;
+	padding: 1em;
+}
+
+.left, .right {
+	float: left;
+	background-color: #fff;
+}
 header {
 	padding: 0.5em;
 	background-color: #e5613e;
@@ -46,7 +66,6 @@ nav a {
 	padding: 0.5rem;
 	display: block;
 	text-decoration: none;
-	margin: 0;
 	background-color: #e5613e;
 }
 
@@ -62,7 +81,7 @@ nav ol {
 	width: 35%;
 	margin-top: 0.5em;
 	margin-right: 1em;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
 .cereals {
@@ -70,6 +89,7 @@ nav ol {
 	clear: left;
 	width: 35%;
 	margin-bottom: 1em;
+	margin-left: 0.5em;
 }
 
 .quinoa {
@@ -77,12 +97,14 @@ nav ol {
 	width: 35%;
 	clear: both;
 	margin-bottom: 1em;
+	margin-left: 1em;
 }
 
 .famous-cereals {
 	background-color: #dd6e50;
 	text-align: center;
 	clear: both;
+	padding: 1em;
 	margin-bottom: 0;
 }
 
@@ -91,24 +113,31 @@ nav ol {
 	background-color: #dd6e50;
 	padding-bottom: 1em;
 	color: white;
+	overflow: hidden;
 }
 
 .rice {
 	float: left;
 	width: 50%;
+	margin: 0;
+	padding: 0;
 }
 
 .corn {
 	width: 100%;
 }
 
+.imgwidth {
+width: 100%;
+}
+
 .oats {
 	width: 50%;
-	float: left;
+	float: right;
 }
 
 .peanuts,.beans,.lentils {
-	width: 20%;
+	width: 30%;
 }
 
 .famous {
@@ -125,15 +154,15 @@ color: white;
 }
 
 .decor {
-	width: 5%;
+	width: 8%;
 	float: left;
-	padding-top: 25px;
+	padding-top: 35px;
 }
 
 .decor2 {
-	width: 5%;
+	width: 8%;
 	float: right;
-	padding-top: 25px;
+	padding-top: 35px;
 }
 
 ul {
@@ -141,7 +170,6 @@ ul {
 	display: inline;
 	font-size: 1em;
 	font-style: italic;
-	padding: 0;
 }
 
 ul li {
@@ -152,3 +180,13 @@ ul li {
 span {
 	font-weight: bold;
 }
+
+div {
+	background-color: #dd6e50;
+}
+
+figure {
+	margin: 0;
+	background-color: #dd6e50;
+}
+
