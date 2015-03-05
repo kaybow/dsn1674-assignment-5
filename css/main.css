@@ -34,7 +34,7 @@ body {
 	background-color: #fff;
 }
 header {
-	padding: 0.2em;
+	padding: 0em;
 	background-color: #e5613e;
 	text-align: center;
 	margin: 0;
@@ -46,7 +46,7 @@ h1, h2 {
 
 h1 {
 	font-size: 3rem;
-	margin: 0 0 0 0.2 em;
+	margin-top: 0em;
 }
 
 nav {
@@ -79,7 +79,7 @@ nav ol {
 .grains {
 	float: left;
 	width: 35%;
-	margin-top: 1em;
+	margin-top: 1.2em;
 	margin-right: 1em;
 	margin-bottom: 0.5em;
 }
@@ -154,15 +154,15 @@ color: white;
 }
 
 .decor {
-	width: 8%;
+	width: 6%;
 	float: left;
-	padding-top: 35px;
+	padding-top: 22px;
 }
 
 .decor2 {
-	width: 8%;
+	width: 6%;
 	float: right;
-	padding-top: 35px;
+	padding-top: 22px;
 }
 
 .second-p {
