@@ -26,7 +26,8 @@ body {
 
 .right {
 	width: 50%;
-	padding: 1em;
+	padding-left: 1em;
+	margin-top: 0em;
 }
 
 .left, .right {
@@ -47,6 +48,8 @@ h1, h2 {
 h1 {
 	font-size: 2.5rem;
 	margin-top: 0em;
+	margin-bottom: 0;
+	padding: 0.2em;
 }
 
 nav {
@@ -138,6 +141,7 @@ width: 100%;
 
 .peanuts,.beans,.lentils {
 	width: 30%;
+	margin-top: 0.3em;
 }
 
 .famous {
@@ -197,4 +201,8 @@ div {
 figure {
 	margin: 0;
 	background-color: #dd6e50;
+}
+
+.pea, .bea, .len {
+	margin: 0;
 }
